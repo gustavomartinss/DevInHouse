@@ -37,21 +37,21 @@ const convidados = [
     }
 ]
 
-function liberarBebidas (array) {
+function liberarBebidas(array) {
 
     var novaLista = [];
-    
+
     array.forEach((idade, i) => {
         novaLista.push(array[i])
         if (array[i].idade >= 18) {
             novaLista[i].openBar = true;
             novaLista[i].sobrenome = novaLista[i].sobrenome + " 🍺"
-        } else{
+        } else {
             novaLista[i].openBar = false;
             novaLista[i].sobrenome = novaLista[i].sobrenome + " 🔞"
         }
     })
-    
+
     return novaLista
 }
 
@@ -61,7 +61,7 @@ console.log(convidadosBebidas);
 
 function separarCamarote(array) {
     var listaFiltrada = array.filter((objeto) => objeto.setor === "camarote");
-      return listaFiltrada;
+    return listaFiltrada;
 }
 
 let listaCamarote = separarCamarote(convidadosBebidas);
@@ -69,7 +69,7 @@ console.log(listaCamarote);
 
 function separarArquibancada(array) {
     var listaFiltrada = array.filter((objeto) => objeto.setor === "arquibancada");
-      return listaFiltrada;
+    return listaFiltrada;
 }
 
 let listaArquibancada = separarArquibancada(convidadosBebidas);
@@ -77,7 +77,7 @@ console.log(listaArquibancada);
 
 function separarPista(array) {
     var listaFiltrada = array.filter((objeto) => objeto.setor === "pista");
-      return listaFiltrada;
+    return listaFiltrada;
 }
 
 let listaPista = separarPista(convidadosBebidas);
@@ -88,10 +88,10 @@ const ulArquibancada = document.getElementById("listaArquibancada");
 const ulPista = document.getElementById("listaPista");
 
 const exibeListaCamarote = listaCamarote.forEach((convidado, i) => {
-            let item = document.createElement("li");
-            let pessoa = listaCamarote[i].nome + " " + listaCamarote[i].sobrenome;
-            item.textContent = pessoa;
-            ulCamarote.appendChild(item);
+    let item = document.createElement("li");
+    let pessoa = listaCamarote[i].nome + " " + listaCamarote[i].sobrenome;
+    item.textContent = pessoa;
+    ulCamarote.appendChild(item);
 });
 
 const exibeListaArquibancada = listaArquibancada.forEach((convidado, i) => {
