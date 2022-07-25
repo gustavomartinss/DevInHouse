@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelado Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>PELADObank</h1>
+        </div>
+    </header>
+
+    <main>
+        <form id="trab">
+            <div class="valor">
+                <select name="" id="selectClientes"></select>
+                <input id="valor" type="number" placeholder="Valor R$" />
+            </div>
+
+
+            <fieldset>
+                <legend>Selecione a operação desejada:</legend>
+
+                <div class="operacao">
+
+                    <div>
+                        <input id="radioSacar" type="radio" name="operacao" value="sacar">
+                        <label for="radioSacar">Sacar</label>
+                    </div>
+
+                    <div>
+                        <input id="radioDepositar" type="radio" name="operacao" value="depositar">
+                        <label for="radioDepositar">Depositar</label>
+                    </div>
+
+
+                </div>
+
+
+            </fieldset>
+
+            <div class="botao">
+                <button class="confirm">Confirmar</button>
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        Copyright.
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
