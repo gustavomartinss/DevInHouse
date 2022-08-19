@@ -1,0 +1,91 @@
+{
+  "entradas": [
+    {
+      "id": 1,
+      "nome": "Carpaccio",
+      "imagem": "https://images.unsplash.com/photo-1623961988350-66b064cb2977?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "descricao": "Leva azeite de oliva como molho, suco de limão, alcaparras e é finalizado com um bom queijo parmesão ralado.",
+      "preco": 0,
+      "tempo": 13,
+      "subCategoria": "Frios"
+    },
+    {
+      "id": 2,
+      "nome": "Espetinho caprese",
+      "imagem": "https://images.unsplash.com/photo-1579178404017-47844de5ca6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "descricao": "Composto por um espetinho de mussarela de búfala, tomate cereja e manjericão, acompanha um delicioso molho pesto.",
+      "preco": 0,
+      "tempo": 10,
+      "subCategoria": "Frios"
+    },
+    {
+      "id": 3,
+      "nome": "Salada italiana",
+      "imagem": "https://images.unsplash.com/photo-1608032077018-c9aad9565d29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "descricao": "Acompanha rúcula, tomates, alface, cenoura ralada e, claro, queijo. Temperado com sal, um pouco de vinagre, fios de azeite de oliva e outros temperos da escolha do Chef.",
+      "preco": 0,
+      "tempo": 8,
+      "subCategoria": "Salada"
+    }
+  ],
+
+  "pratosPrincipais": [
+    {
+      "id": 4,
+      "nome": "Brisket de Angus",
+      "imagem": "https://images.unsplash.com/photo-1623174025518-b49000fb653d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+      "descricao": "O brisket é um corte do peito bovino, muito utilizado nos churrascos dos Estados Unidos. Localizado na parte dianteira do boi.",
+      "preco": 69,
+      "tempo": 80,
+      "subCategoria": ""
+    },
+    {
+      "id": 5,
+      "nome": "Pork Ribs",
+      "imagem": "https://images.unsplash.com/photo-1593030668930-8130abedd2b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "descricao": "Costelinha Suína Defumada em lenha de Macieira e que derrete na sua boca.",
+      "preco": 49,
+      "tempo": 35,
+      "subCategoria": ""
+    },
+    {
+      "id": 6,
+      "nome": "Mignon com cebola e shoyu",
+      "imagem": "https://images.unsplash.com/photo-1559847844-d9d2bc807d82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "descricao": "A receita valoriza a maciez do corte e empresta todo o sabor que ele não tem, combinando a cebola caramelizada com o shoyu.",
+      "preco": 99,
+      "tempo": 60,
+      "subCategoria": ""
+    }
+  ],
+
+  "bebidas": [
+    {
+      "id": 7,
+      "nome": "Coca-Cola",
+      "imagem": "https://images.unsplash.com/photo-1605548230624-8d2d0419c517?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "descricao": "Lata, contendo 350ml",
+      "preco": 8,
+      "tempo": 2,
+      "subCategoria": ""
+    },
+    {
+      "id": 8,
+      "nome": "Heineken",
+      "imagem": "https://images.unsplash.com/photo-1516128043650-037fbdbd0b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "descricao": "Longneck, contendo 330ml",
+      "preco": 12,
+      "tempo": 2,
+      "subCategoria": ""
+    },
+    {
+      "id": 9,
+      "nome": "Agua",
+      "imagem": "https://images.unsplash.com/photo-1633949698015-0f8a8b261c07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "descricao": "Garrafa, contendo 600ml",
+      "preco": 6,
+      "tempo": 2,
+      "subCategoria": ""
+    }
+  ]
+}

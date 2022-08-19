@@ -1,32 +1,21 @@
-import { Fragment, useState } from 'react'
-import './App.css'
-import { Card } from './components/Card/Card'
-import { Footer } from './components/Footer/Footer'
-import { Header } from './components/Header/Header'
+import "./App.css";
+import { Footer } from "./components/Footer/Footer";
+import { Header } from "./components/Header/Header";
+import { Secao } from "./components/Secao/Secao";
+import produtos from "./services/produtos.json";
 
 function App() {
-
-  const produtos = [
-    {id: 1, nome: 'Coca-Cola', imagem: '', descricao: 'Lata, contendo de 350ml', preco: 8, tempo: 0},
-    {id: 2, nome: 'Coca-Cola', imagem: '', descricao: 'Lata, contendo de 350ml', preco: 8, tempo: 0},
-    {id: 3, nome: 'Coca-Cola', imagem: '', descricao: 'Lata, contendo de 350ml', preco: 8, tempo: 0}
-  ]
+  const subSecoesEntradas = new Set(produtos.entradas.map((p) => p.subCategoria));
 
   return (
     <>
       <Header />
-      <ul>
-        {produtos.map((produto) => {
-          return (
-            <Card key={produto.id} 
-              produto={produto}
-            />
-          )
-        })}
-      </ul>
+      <Secao nome={"entradas"} produtos={produtos.entradas} subSec={Array.from(subSecoesEntradas)} />
+      <Secao nome={"pratos principais"} produtos={produtos.pratosPrincipais} />
+      <Secao nome={"bebidas"} produtos={produtos.bebidas} />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
